@@ -3,11 +3,14 @@
 
 1. Open a duckdb file `01_sql.db`:
 - you can use Python:
+
 ```
 >>> import duckdb
 >>> con = duckdb.connect("01_sql.db")
+```
+
 - [Dbeaver](https://duckdb.org/docs/guides/sql_editors/dbeaver.html)
-- 
+- or any other client
 
 The database should contain following data:
 

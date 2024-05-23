@@ -1,18 +1,21 @@
-# Prepare SQL Fiddle environment
+# Prepare your environment
 
-![SQL_Fiddle](./imgs/SQL_Fiddle.png)
 
-1. Go to [sqlfiddle](http://sqlfiddle.com)
-2. On top select `MySQL 5.6`:
-3. Into left side (Schema) paste following schema with data and confirm with **Build Schema** button:
+1. Open a duckdb file `01_sql.db`:
+- you can use Python:
+```
+>>> import duckdb
+>>> con = duckdb.connect("01_sql.db")
+- [Dbeaver](https://duckdb.org/docs/guides/sql_editors/dbeaver.html)
+- 
+
+The database should contain following data:
 
 ```sql
-CREATE TABLE Courses
-    (`student_id` int, `event_type` varchar(8), `course_id` int, `event_timestamp` datetime)
-;
+CREATE TABLE if not exists courses(student_id int, event_type varchar(8), course_id int, event_timestamp datetime);
     
-INSERT INTO Courses
-    (`student_id`, `event_type`, `course_id`, `event_timestamp`)
+INSERT INTO courses
+    (student_id, event_type, course_id, event_timestamp)
 VALUES
     (1, 'start', 1, '2019-01-01 22:00:00'),
     (1, 'end', 1, '2019-01-01 22:30:00'),
@@ -59,12 +62,10 @@ VALUES
     (10, 'finished', 1, '2019-01-03 22:00:00')
 ;
 
-CREATE TABLE Students
-    (`student_id` int, `Name` varchar(28), `is_active` bool, `student_type` varchar(3))
-;
+CREATE TABLE if not exists students (student_id int, name varchar(28), is_active bool, student_type varchar(3));
     
-INSERT INTO Students
-    (`student_id`, `Name`, `is_active`, `student_type`)
+INSERT INTO students
+    (student_id, name, is_active, student_type)
 VALUES
     (1, 'Bill Blackbeard', true, 'b2b'),
     (2, 'Long Bill Ginger', true, 'b2c'),

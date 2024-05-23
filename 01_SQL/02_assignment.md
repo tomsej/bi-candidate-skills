@@ -1,8 +1,6 @@
 # Assignment
 
-![SQL_Fiddle](./imgs/SQL_Fiddle_write.png)
-
-Please use sqlfiddle environment (created in [01_prepare](01_prepare.md) step) to answer questions.
+Please use prepared environment (created in [01_prepare](01_prepare.md) step) to answer questions.
 
 ## Questions to answer
 

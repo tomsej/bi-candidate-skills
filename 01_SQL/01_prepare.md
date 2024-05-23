@@ -82,4 +82,4 @@ VALUES
     (10, 'Captain John', false, 'b2c')
 ;
 ```
-4. Go to [02_assignment.md](02_assignment.md) and try to answer the questions.
+2. Go to [02_assignment.md](02_assignment.md) and try to answer the questions.

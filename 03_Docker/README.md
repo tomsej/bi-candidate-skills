@@ -15,7 +15,7 @@ The goal is to dockerize script inside `api_holiday`. The output should contains
 
 Then open [results.md](results.md) and fill bash commands for building and running container.
 
-Create new branch e.g. `novakj/docker` (user surname + first letter of your name - e.g. Jan Novák => `novakj`) and push this branch to git.
+Create new branch e.g. `novakj` (user surname + first letter of your name - e.g. Jan Novák => `novakj`) and push this branch to git.
 
 Test should take **<1 hour**.
 

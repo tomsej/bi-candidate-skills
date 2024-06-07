@@ -18,6 +18,6 @@ Please paste your SQL scripts here:
 ```sql
 ```
 
-Create new branch e.g. `novakj/sql` (user surname + first letter of your name - e.g. Jan Novák => `novakj`) and push this branch to git.
+Create new branch e.g. `novakj` (user surname + first letter of your name - e.g. Jan Novák => `novakj`) and push this branch to git.
 
 🎉 **You just finished SQL test!!** 🎉

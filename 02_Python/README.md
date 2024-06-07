@@ -31,7 +31,7 @@ pytest
 
 3. Write some tests. Please use `pytest` for that. You can mock http call or test original api endpoint.
 
-Create new branch e.g. `novakj/python` (user surname + first letter of your name - e.g. Jan Novák => `novakj`) and push this branch to git.
+Create new branch e.g. `novakj` (user surname + first letter of your name - e.g. Jan Novák => `novakj`) and push this branch to git.
 
 Test should take **<1 hour**.
 

@@ -2,7 +2,9 @@
 
 
 1. Open a duckdb file `01_sql.db`:
-- you can use Python:
+- The easiest way is to open `01_sql.ipynb` (VSCode, Jupyter, ...) and do an assignment from here.
+
+- or you can use Python:
 
 ```
 >>> import duckdb
